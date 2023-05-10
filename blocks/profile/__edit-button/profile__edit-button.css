@@ -1,0 +1,23 @@
+.profile__edit-button { 
+    border: 1px solid #fff;
+    height: 24px;
+    width: 24px;
+    background-image: url(./image/pencil.png);
+    background-size: 10px 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-sizing: border-box;
+    position: relative;
+    top: 40px;
+    cursor: pointer;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+  }
+
+  .profile__edit-button:hover {
+    opacity: .6;
+  }
