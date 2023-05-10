@@ -1,7 +1,7 @@
 
 .profile__add-button{
     border: 1px white solid;
-    background-image:url(./image/plus.png);
+    background-image:url(../../../image/plus.png);
     background-repeat: no-repeat;
     background-color: transparent;
     background-position: center;
