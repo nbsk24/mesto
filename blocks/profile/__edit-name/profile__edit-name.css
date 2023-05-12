@@ -1,6 +1,8 @@
 .profile__edit-name{
     display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+    align-items:baseline;
+    gap:17px;
+  
  
 }
+
