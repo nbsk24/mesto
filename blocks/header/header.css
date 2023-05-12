@@ -1,8 +1,7 @@
 .header{
-    
-    margin: 45px auto 0;
-    width: 880px;
-    
+padding: 45px 15% 0;
+width: 100%;
+  box-sizing: border-box;
 }
 
 .header::after {
@@ -13,4 +12,17 @@
     opacity: 0.7;
     padding-top: 41px;
     box-sizing: border-box;
+}
+
+
+@media screen and (max-width:1279px){
+  .header {
+    content: "";
+    display: block;
+    border: 0;
+    border-bottom: 1px solid #545454;
+    opacity: 0.7;
+    padding-top: 41px;
+    box-sizing: border-box;
+  }
 }

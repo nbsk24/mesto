@@ -1,7 +1,11 @@
 .elements{
-    display: flex;
-    flex-wrap: wrap;
-    gap:20px 17px;
-    width: 880px;
-    margin: 0 auto 66px;
+    padding: 0 15%;
+    box-sizing: border-box;
+    width:100%;
   }
+
+  @media screen and (max-width:1279px){
+    .elements{
+      padding:0;
+  }
+}

@@ -8,11 +8,12 @@
     <title>Mesto</title>
 </head>
 <body class="page">
-    <header class="header">
+    <div class="content__element">
+   <header class="header">
         <img class="header__logo" src="./image/logo.svg" alt="logo"> 
             </div>
     </header>
-    <main class="content">
+    <main>
         <section class="profile">
             <img class="profile__avatar" src="./image/image.jpg">
             <div class="profile__info">
@@ -22,15 +23,15 @@
                     </div>
                     <p class="profile__description">Исследователь океана</p>
                   </div>
-                </div>
+                
                 <button class="profile__add-button" type="button"></button>
-                    </div>
-                </div>
+                    
             </div>
             
             </div>
         </section>
         <section class="elements">
+            <div class="element__list">
             <div class="element">
                 <img class="element__photo" src="./image/karachaevo.jpg" alt="karachaevo">
                 <div class="element__info">
@@ -53,7 +54,7 @@
                         <div class="element">
                             <img class="element__photo" src="./image/elbrus.png" alt="elbrus">
                             <div class="element__info">
-                            <h2 class="element__name">Гора Эльбрус</h2>
+                          <h2 class="element__name">Гора Эльбрус</h2>
                             <button class="element__like" type="button"></button>
                             </div></div>
                             <div class="element">
@@ -67,11 +68,11 @@
                                     <div class="element__info">
                                     <h2 class="element__name">Карачаево-Ч...</h2>
                                     <button class="element__like" type="button"></button>
-                                    </div></div>
+                                    </div></div></div>
         </section>
         <footer class="footer">
             <h2 class="footer__text">© 2020 Mesto Russia</h2>
         </footer>
-
+    </div>
 </body>
 </html>
