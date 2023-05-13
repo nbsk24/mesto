@@ -2,4 +2,19 @@
     color: white;
     margin: 0;
     font-size: 18px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    max-width: 500px;
+}
+
+@media screen and (max-width:1024px){
+    .profile__description{
+        max-width: 320px;
+  }
+}
+@media screen and (max-width:320px){
+    .profile__description{
+       margin:0 auto;
+  }
 }

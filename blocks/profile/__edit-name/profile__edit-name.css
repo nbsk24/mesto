@@ -6,3 +6,9 @@
  
 }
 
+@media screen and (max-width:320px){
+    .profile__edit-name{
+        max-width:320px;
+       gap:7px;
+  }
+}
