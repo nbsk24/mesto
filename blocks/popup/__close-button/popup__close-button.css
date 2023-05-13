@@ -1,8 +1,8 @@
 .popup__close-button {
   width: 30px;
   height: 30px;
-  background: transparent url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 28 27'%3E%3Cline x1='1.93934' y1='25.9393' x2='25.9393' y2='1.93934' stroke='white' stroke-width='3'/%3E%3Cline x1='2.06066' y1='1.93934' x2='26.0607' y2='25.9393' stroke='white' stroke-width='3'/%3E%3C/svg%3E%0A") center no-repeat;
-  background-size: 30px 30px;
+  background:url(../../../image/icon-close.svg) no-repeat;
+  background-size: contain;
   position: absolute;
   top: -30px;
   right: -40px;
@@ -20,17 +20,16 @@
 }
 @media screen and (max-width: 767px) {
   .popup__close-button {
-    width: 42px;
-    height: 42px;
+    background-size: contain;
     right: -35px;
     top: -35px;
  }
 }
 @media screen and (max-width:320px){
   .popup__close-button{
-    width: 42px;
-    height: 42px;
-    right: -5px;
-    top: -45px;
+    width: 20px;
+    height: 20px;
+    right: 0;
+    top: -36px;
  }
 }
