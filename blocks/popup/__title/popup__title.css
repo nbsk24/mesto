@@ -2,12 +2,10 @@
     font-size: 18px;
     text-align: center;
     padding-bottom: 75px;
-    
 }
-
 @media screen and (max-width:725px){
     .popup__title{
         padding:0;
         margin-bottom: 35px;
-    }
+   }
 }
