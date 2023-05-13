@@ -1,4 +1,4 @@
-.element__list{
+.element-list{
     margin: 0 auto;
     padding: 0;
     list-style: none;
@@ -9,13 +9,13 @@
     justify-items: center;
 }
 @media screen and (max-width:1279px){
-    .element__list{
+    .element-list{
         grid-template-columns: repeat(2,1fr);
         max-width: 580px;
    }
 }
 @media screen and (max-width:425px){
-    .element__list{
+    .element-list{
         grid-template-columns: repeat(1,1fr);
    }
 }
