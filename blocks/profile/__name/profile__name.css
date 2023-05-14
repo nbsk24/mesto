@@ -22,3 +22,15 @@
         padding-right: 0;
    }
 }
+
+@media screen and (max-width:425px){
+    .profile__name{
+        max-width: 350px;
+   }
+}
+
+@media screen and (max-width:320px){
+    .profile__name{
+        max-width:189px;
+   }
+}

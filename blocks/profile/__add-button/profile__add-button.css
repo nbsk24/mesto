@@ -1,6 +1,7 @@
 .profile__add-button{
-    border: 1px white solid;
-    background-image:url(../../../image/plus.png);
+    border: 2px white solid;
+    border-radius: 2px;
+    background-image:url(../../../image/Vector.svg);
     background-repeat: no-repeat;
     background-color: transparent;
     background-position: center;
@@ -26,5 +27,6 @@
     .profile__add-button{
         width: 282px;
         padding-left: 0;
+        background-size:16px 16px;
    }
 }

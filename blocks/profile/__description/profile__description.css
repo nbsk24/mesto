@@ -2,10 +2,12 @@
     color: white;
     margin: 0;
     font-size: 18px;
+    font-weight: 400;
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
     max-width: 500px;
+    line-height: 21.78px;
 }
 @media screen and (max-width:1024px){
     .profile__description{
@@ -15,5 +17,10 @@
 @media screen and (max-width:320px){
     .profile__description{
         margin:0 auto;
+        font-size: 14px;
+        line-height: 16.94px;
+        max-width:282px;
    }
 }
+
+

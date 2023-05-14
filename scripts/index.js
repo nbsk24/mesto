@@ -9,14 +9,15 @@ const editFormEl = document.querySelector('#edit-form');
 
 openPopupButtonEl.addEventListener('click', function () {
   openPopup(editPopupEl);
+  nameInputEl.value = pageTitleEl.textContent;
+subnameInputEl.value = pageSubtitleEl.textContent;
 });
 
 closePopupButtonEl.addEventListener('click', function () {
   closePopup(editPopupEl);
 });
 
-nameInputEl.value = pageTitleEl.textContent;
-subnameInputEl.value = pageSubtitleEl.textContent;
+
 
 editFormEl.addEventListener('submit', function (event) {
   event.preventDefault();
@@ -28,9 +29,9 @@ editFormEl.addEventListener('submit', function (event) {
 });
 
 function openPopup(popupEl) {
-  popupEl.classList.add('popup_is-opened');
+  popupEl.classList.add('popup_opened');
 }
 
 function closePopup(popupEl) {
-  popupEl.classList.remove('popup_is-opened');
+  popupEl.classList.remove('popup_opened');
 }
