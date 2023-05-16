@@ -28,6 +28,8 @@
     .profile__name{
         max-width: 189px;
         margin:0 auto;
+        line-height: 33px;
+        padding-bottom: 14px;
    }
 }
 
