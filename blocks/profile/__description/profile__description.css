@@ -12,9 +12,10 @@
 @media screen and (max-width:1024px){
     .profile__description{
         max-width: 320px;
+        margin:0 auto;
    }
 }
-@media screen and (max-width:320px){
+@media screen and (max-width:425px){
     .profile__description{
         margin:0 auto;
         font-size: 14px;

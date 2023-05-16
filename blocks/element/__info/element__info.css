@@ -3,5 +3,9 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  text-overflow: ellipsis; 
+  white-space: nowrap; 
+  overflow: hidden;
+  max-width: 246px;
 }
                                                                                

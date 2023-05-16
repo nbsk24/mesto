@@ -9,8 +9,10 @@
   background-size: contain;
   border: 0;
   transition: all 1s ease-in;
+  
+  
 }
 .element__like:hover {
   cursor: pointer;
- 
+  opacity: 0.5;
 }

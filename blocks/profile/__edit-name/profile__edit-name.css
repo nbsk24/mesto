@@ -3,9 +3,9 @@
     align-items:baseline;
     gap:17px;
 }
-@media screen and (max-width:320px){
+@media screen and (max-width:425px){
     .profile__edit-name{
-        max-width:320px;
+        max-width:282px;
         gap:7px;
         margin:0 auto;
    }
