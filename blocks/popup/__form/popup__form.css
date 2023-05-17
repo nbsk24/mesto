@@ -9,7 +9,7 @@
   box-sizing: border-box;
 }
 
-@media screen and (max-width:425px){
+@media screen and (max-width:520px){
   .popup__form{
     max-width:238px;
     margin:25px auto;
@@ -17,9 +17,9 @@
 }
 
 
-@media screen and (max-width:320px){
+@media screen and (max-width:400px){
   .popup__form{
-    max-width:238px;
+
     margin:29px 22px;
  }
 }
