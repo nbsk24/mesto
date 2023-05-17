@@ -17,4 +17,4 @@
 
 
 # Открыть сайт в браузере
-nbsk24.github.io/mesto
+* [Ссылка на макет mesto](https://www.nbsk24.github.io/mesto)
